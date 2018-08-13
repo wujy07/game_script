@@ -16,10 +16,14 @@ def launch_app():
 
 def kill_app():
     os.system('adb shell am force-stop com.klab.captain283.global')
-    kill_all()
+    # kill_all()
 
 def kill_all():
     os.system('adb shell am kill-all')
+
+def horizontal_swipe_screen_once():
+    os.system('adb shell input swipe 900 500 0 500')
+    time.sleep(0.2)
 
 def horizontal_swipe_screen():
     os.system('adb shell input swipe 1800 500 0 500')

@@ -51,6 +51,15 @@ class LaunchActionInfo(BaseActionInfo):
         utils.launch_app()
         BaseActionInfo.execute(self)
 
+class SwipeOnceActionInfo(BaseActionInfo):
+    def __init__(self, message, sleepTime):
+        BaseActionInfo.__init__(self,message, sleepTime)
+        self.sleepTime = sleepTime
+
+    def execute(self):
+        utils.horizontal_swipe_screen_once()
+        BaseActionInfo.execute(self)
+
 class SwipeEndActionInfo(BaseActionInfo):
     def __init__(self, message, sleepTime):
         BaseActionInfo.__init__(self,message, sleepTime)
@@ -74,6 +83,9 @@ class ActionExecutor:
             KillActionInfo(self.jsonObject["message"], self.jsonObject["sleepTime"]).execute()
         elif actionName == "launch":
             LaunchActionInfo(self.jsonObject["message"], self.jsonObject["sleepTime"]).execute()
+        elif actionName == "swipe":
+            SwipeOnceActionInfo(self.jsonObject["message"],self.
+jsonObject["sleepTime"]).execute()
         elif actionName == "swipe_end":
             SwipeEndActionInfo(self.jsonObject["message"], self.jsonObject["sleepTime"]).execute()
         elif actionName == "tap":

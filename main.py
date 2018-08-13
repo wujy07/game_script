@@ -9,7 +9,7 @@ def init():
     utils.sleep_wait(3)
     print('launch Trubasa app')
     utils.launch_app()
-    utils.sleep_wait(20)
+    utils.sleep_wait(18)
 
 
 if __name__=='__main__':
