@@ -1,0 +1,79 @@
+[
+	{
+		"action": "tap",
+		"xpos": 1110,
+		"ypos": 755,
+		"message": "click hard match",
+		"sleepTime": 1
+	},
+
+	{
+		"action": "tap",
+		"xpos": 2024,
+		"ypos": 1250,
+		"message": "click match begin button",
+		"sleepTime": 2
+	},
+
+	{
+		"action": "tap",
+		"xpos": 720,
+		"ypos": 650,
+		"message": "click self match",
+		"sleepTime": 5
+	},
+
+	{
+		"action": "tap",
+		"xpos": 900,
+		"ypos": 380,
+		"message": "click first buff",
+		"sleepTime": 1
+	},
+
+    {
+        "action": "tap",
+        "xpos": 2170,
+        "ypos": 1110,
+        "message": "click game begin",
+        "sleepTime": 1
+    },
+
+	{
+		"action": "sleep",
+		"message": "Sleep until game done",
+		"sleepTime": 70 
+	},
+
+    {
+        "action": "tap",
+        "xpos": 1210,
+        "ypos": 1310,
+        "message": "click to skip",
+        "sleepTime": 2 
+    },
+
+    {
+        "action": "tap",
+        "xpos": 1210,
+        "ypos": 1310,
+        "message": "click to skip",
+        "sleepTime": 4 
+    },
+
+    {
+        "action": "tap",
+        "xpos": 1210,
+        "ypos": 1310,
+        "message": "click come back to jing dian match",
+        "sleepTime": 1
+    },
+
+    {
+        "action": "tap",
+        "xpos": 999,
+        "ypos": 1219,
+        "message": "cancel add friend",
+        "sleepTime": 8 
+    }
+]

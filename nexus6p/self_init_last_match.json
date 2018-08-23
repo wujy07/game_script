@@ -1,0 +1,47 @@
+[
+    {
+    	"action": "tap",
+	    "xpos": 968,
+	    "ypos": 965,
+	    "message": "click possible drop button match",
+	    "sleepTime": 3 
+    },
+
+    {
+        "action": "tap",
+	    "xpos": 968,
+	    "ypos": 965,
+	    "message": "click to give up last unfinished match",
+	    "sleepTime": 4 
+    },
+
+	{
+		"action": "tap",
+		"xpos": 2160,
+		"ypos": 650,
+		"message": "click Jing Dian match",
+		"sleepTime": 4 
+	},
+
+	{
+		"action": "tap",
+		"xpos": 1210,
+		"ypos": 600,
+		"message": "click Huo Dong match",
+		"sleepTime": 4 
+	},
+
+	{
+		"action": "swipe_end",
+		"message": "swipe to end",
+		"sleepTime": 1
+	},
+
+	{
+		"action": "tap",
+		"xpos": 2140,
+		"ypos": 700,
+		"message": "click last match",
+		"sleepTime": 1
+	}
+]
