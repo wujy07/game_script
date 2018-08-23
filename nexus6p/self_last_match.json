@@ -2,8 +2,8 @@
 	{
 		"action": "tap",
 		"xpos": 1110,
-		"ypos": 755,
-		"message": "click hard match",
+		"ypos": 1010,
+		"message": "click easy match 31",
 		"sleepTime": 1
 	},
 
@@ -20,7 +20,7 @@
 		"xpos": 720,
 		"ypos": 650,
 		"message": "click self match",
-		"sleepTime": 5
+		"sleepTime": 7 
 	},
 
 	{
@@ -42,8 +42,16 @@
 	{
 		"action": "sleep",
 		"message": "Sleep until game done",
-		"sleepTime": 70 
+		"sleepTime": 85 
 	},
+
+    {
+        "action": "tap",
+        "xpos": 1210,
+        "ypos": 1310,
+        "message": "click to skip",
+        "sleepTime": 6 
+    },
 
     {
         "action": "tap",
@@ -55,16 +63,8 @@
 
     {
         "action": "tap",
-        "xpos": 1210,
-        "ypos": 1310,
-        "message": "click to skip",
-        "sleepTime": 4 
-    },
-
-    {
-        "action": "tap",
-        "xpos": 1210,
-        "ypos": 1310,
+        "xpos": 1300,
+        "ypos": 1350,
         "message": "click come back to jing dian match",
         "sleepTime": 1
     },
